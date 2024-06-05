@@ -1,0 +1,32 @@
+
+# CODE EXPLANATION
+
+# In this file is explained the whole code that was used to create our snake game. 
+
+"""
+Here's a breakdown of the code:
+
+    1. The code starts by importing the necessary modules: turtle, time, and random.
+    2. The delay variable is set to control the speed of the game.
+    3. The score and high_score variables are initialized to keep track of the player's score.
+    4. The screen object is created using the turtle.Screen() function. It sets up the game window with a title, background color, and dimensions.
+    5. The border_pen object is created to draw the outer and inner fences of the game area.
+    6. The head object represents the snake's head and is initialized with its shape, color, and starting position.
+    7. The food object represents the snake's food and is initialized with its shape, color, and starting position.
+    8. The segments list is used to store the snake's body segments.
+    9. The pen object is created to display the score on the screen.
+    10. The update_score() function is defined to update and display the score.
+    11. The go_up(), go_down(), go_left(), and go_right() functions are defined to change the direction of the snake's movement based on keyboard input.
+    12. The move() function is defined to move the snake's head and body segments according to its current direction.
+    13. Keyboard bindings are set up to call the corresponding movement functions when specific keys are pressed.
+    14. The main game loop starts with the While True statement.
+    15. The screen.update() function is called to update the screen.
+    16. The code checks for collisions with the borders using conditional statements. If a collision occurs, the game is reset by resetting the snake's position, hiding the segments, clearing the segments list, resetting the score, and resetting the delay.
+    17. The code checks for collisions with the food using the head.distance(food) function. If a collision occurs, the food is moved to a random position, a new segment is added to the snake's body, the delay is shortened, and the score is increased.
+    18. The code updates the positions of the snake's body segments by iterating over the segments list and moving each segment to the position of the previous segment.
+    19. The code moves the first segment of the snake's body to the position of the snake's head.
+    20. The code checks for collisions between the snake's head and its body segments. If a collision occurs, the game is reset in the same way as when colliding with the borders.
+    21. The code pauses for a short delay before repeating the loop to control the speed of the game.
+
+"""
+# Overall, the code provides a basic implementation of the Snake game using the turtle module in Python. It handles # user input, updates the game state, and displays the score on the screen.

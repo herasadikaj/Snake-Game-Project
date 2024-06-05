@@ -1,0 +1,49 @@
+# PUNUAR NGA ELSA MURATI
+
+<questions>
+    <question>
+        <text>What type of game is Snake?</text>
+        <options>
+            <option>A. Racing game</option>
+            <option>B. Puzzle game</option>
+            <option>C. Strategy game</option>
+        </options>
+        <correct>B</correct>
+    </question>
+    <question>
+        <text>Who created the first version of Snake?</text>
+        <options>
+            <option>A. Nokia</option>
+            <option>B. Atari</option>
+            <option>C. Apple</option>
+        </options>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Which keys are commonly used to control the snake in the game?</text>
+        <options>
+            <option>A. Arrow keys</option>
+            <option>B. WASD keys</option>
+            <option>C. Both A and B</option>
+        </options>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>What happens when the snake collides with its own body?</text>
+        <options>
+            <option>A. The game ends</option>
+            <option>B. The snake becomes longer</option>
+            <option>C. The snake moves faster</option>
+        </options>
+        <correct>A</correct>
+    </question>
+    <question>
+        <text>Which of the following is not a common power-up in Snake?</text>
+        <options>
+            <option>A. Fruit</option>
+            <option>B. Bomb</option>
+            <option>C. Speed boost</option>
+        </options>
+        <correct>B</correct>
+    </question>
+</questions>

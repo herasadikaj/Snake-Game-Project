@@ -1,0 +1,25 @@
+
+# XML QUIZ
+
+'''
+
+This Python program is designed to load quiz questions from an XML file, present them to the user, 
+collect their answers, and then evaluate the user's score based on the correctness of their responses.
+
+Code Structure:
+
+The code starts with a <questions> tag that encapsulates all the quiz questions. 
+Within <questions>, each <question> tag represents an individual question. 
+Inside each <question>, there is a <text> tag for the question text, <options> tag 
+for answer choices, and <correct> tag for the correct answer.
+
+The code consists of two main functions:
+
+	1. load_questions(filename): This function loads quiz questions from the XML file.
+      It parses the XML structure, extracts question details, options, and correct answers, 
+      and stores them in a list.
+	2. run_quiz(questions): This function runs the quiz based on the loaded questions. 
+    It iterates through each question, presents it to the user along with options, 
+    collects the user's answer, checks its correctness, and updates the user's score accordingly.
+
+'''
